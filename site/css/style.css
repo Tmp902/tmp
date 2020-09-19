@@ -1,0 +1,160 @@
+
+body {
+	margin:0;
+	/*padding:0;*/
+	/*width: 100%;*/
+	/*outline: none;*/
+	/*display: block;*/
+	/*position: relative;*/
+	/*height: 800px;*/
+	background-color: rgba(7, 105, 103, 0.62);
+}
+
+h2 {
+	color: #000000;
+	margin: 5px;
+	position: relative;
+	top: 34px;
+	margin-left: 16px;
+	z-index: -1;
+	font-family: helvetica;
+	/*font-family: helvetica;*/
+	/*background-color: yellow; */
+}
+
+p {
+	margin-left: 20px;
+	font-family: helvetica;
+
+}
+
+.navbar {
+	position: fixed;
+	display: block;
+	height: 30px;
+	justify-content: center;
+	left: 0;
+	/*top: 0;*/
+	/*background-color: #ffffff;*/
+	background-color: #ffffff;
+	padding-top: 10px;
+	/*margin-left: 0;*/
+	width: 100%;
+	overflow: hidden;
+	z-index: 10;
+	border-top: 2px solid black;
+	border-bottom: 3px solid black;
+}
+
+.navbar a{
+	text-decoration: none;
+	border-bottom: 2px solid rgba(00,118,119,0.4);
+	margin-left: 10px;
+	color: #727272;
+	font-size: 18px;
+}
+
+.navbar a:hover{
+	border-bottom: solid rgba(00,118,119,1);
+	color: #000;
+}
+
+.navbar a.active{
+	color: #000000;
+	border-bottom: solid red;
+}
+
+
+.grid {
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	/*grid-template-rows: 1fr 1fr 1fr;*/
+	grid-gap: 40px 9px;
+	align-content: stretch;
+	justify-content: space-around;
+	margin: 10px;
+	margin-top: 30px;
+	/*background-color: #396086;*/
+}
+
+.grid-element {
+	margin-bottom:10px;
+	/*background-color: #520485;*/
+	min-height: 100px;
+}
+
+.grid-element img {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	width: 100%
+}
+
+.grid-element img:hover {
+	opacity: 0.55;
+}
+
+.footer {
+	margin-right:20px;
+	overflow: hidden;
+	display: flex;
+	flex-flow: row;
+	justify-content: left;
+	background-color: #202020;
+	color: #ffffff;
+	width: 100%;
+	justify-content: space-between;
+	height: 150px;
+}
+
+
+.footer-element-1{
+	order: 1;
+	margin: 14px;
+	width: 18%
+
+}
+
+.footer-element-2{
+	order: 2;
+	margin: 14px;
+	width: 18%
+
+}
+
+.footer-element-3{
+	order: 3;
+	margin: 14px;
+	width: 25%
+
+}
+
+.footer-element-4 {
+	order: 4;
+	margin: 14px;
+	width: 18%;
+}
+
+.footer-element-5 {
+	order: 5;
+	width: 20%
+}
+
+.footer-element-5 img {
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
